@@ -7,8 +7,8 @@ class Owner
     @@all 
   end
   
-  def initialize(name)
-    @name = name
+  def initialize(species)
+    @species = species
     @@all << self
   end
   
