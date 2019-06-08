@@ -61,4 +61,10 @@ end
  end
  @pets = {}
  end
-end
+ 
+ def list_pets
+   
+ end
+ 
+ 
+ end
