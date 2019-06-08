@@ -9,7 +9,7 @@ class Owner
     @@all 
   end
   
-  def initialize(species,pets ={:fishes => [], :dogs => [], :cats=> []}) )
+  def initialize(species,pets ={:fishes => [], :dogs => [], :cats => []}) )
     @species = species
     @pets = 
     @@all << self
