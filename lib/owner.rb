@@ -11,4 +11,8 @@ class Owner
     @name = name
     @@all << self
   end
+  
+  def self.count
+   @@all.len 
+  end
 end
