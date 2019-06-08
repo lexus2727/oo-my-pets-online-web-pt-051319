@@ -1,4 +1,5 @@
 class Owner
+  
   # code goes here
   @@all = []
   
@@ -7,4 +8,6 @@ class Owner
   end
   
   def initialize(name)
+    @name = name
+  end
 end
