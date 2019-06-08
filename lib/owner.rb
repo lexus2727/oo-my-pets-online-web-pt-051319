@@ -63,7 +63,7 @@ end
  end
  
  def list_pets
-   "I have "
+   "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), #{@pets[:cats].length} cat(s)."
    
  end
  
