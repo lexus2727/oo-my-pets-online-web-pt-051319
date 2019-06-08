@@ -55,6 +55,9 @@ end
  end
  def sell_pets
    @pets.each do |type, name_array|
-   
+     name_array.each do |pet|
+   pet.mood = "nervous"
+ end
+ end
  end
 end
