@@ -54,6 +54,7 @@ end
    end
  end
  def sell_pets
+   @pets.each do |type, name_array|
    
  end
 end
